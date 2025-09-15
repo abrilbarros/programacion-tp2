@@ -38,3 +38,10 @@ print("====== Ejercicio 8 ======")
 print(circulo_1.PI)
 print(circulo_2.PI)
 print(circulo_3.PI)
+
+print("====== Ejercicio 9 ======")
+
+circulo_4 = circulo.Circulo(5)
+circulo_5 = circulo.Circulo(5)
+
+print(circulo_4 == circulo_5) # False: son objetos diferentes
