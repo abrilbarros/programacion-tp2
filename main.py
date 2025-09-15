@@ -45,3 +45,7 @@ circulo_4 = circulo.Circulo(5)
 circulo_5 = circulo.Circulo(5)
 
 print(circulo_4 == circulo_5) # False: son objetos diferentes
+
+print("====== Ejercicio 10 ======")
+
+print(circulo_4.obtener_perimetro() == circulo_5.obtener_perimetro()) # True
