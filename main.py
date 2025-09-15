@@ -21,8 +21,14 @@ cancion_2.establecer_genero("post-punk")
 # Muestro el género actualizado
 print(cancion_2.obtener_genero())
 
-print("====== Ejercicio 5 ======")
+print("====== Ejercicio 6 ======")
 
 circulo_1 = circulo.Circulo(3.5)
 circulo_2 = circulo.Circulo(10)
 circulo_3 = circulo.Circulo(0.75)
+
+print("====== Ejercicio 7 ======")
+
+print(circulo_1.obtener_diametro())
+print(circulo_2.obtener_diametro())
+print(circulo_3.obtener_diametro())
