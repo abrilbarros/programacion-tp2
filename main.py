@@ -10,3 +10,12 @@ print("====== Ejercicio 3 ======")
 print(cancion_1.obtener_genero())
 print(cancion_2.obtener_genero())
 print(cancion_3.obtener_genero())
+
+
+print("====== Ejercicio 4 ======")
+
+# Cambio de género de la 2da canción
+cancion_2.establecer_genero("post-punk")
+
+# Muestro el género actualizado
+print(cancion_2.obtener_genero())
