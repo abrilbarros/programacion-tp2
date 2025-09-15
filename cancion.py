@@ -1,10 +1,9 @@
 # Ejercicio 1
-
 # Clase que modela una canción con su nombre, duración (en segundos) y género.
 class Cancion:
     def __init__(self, nombre, duracion, genero):
         self.nombre = nombre
-        self.duracion = duracion
+        self.duracion = duracion # segundos
         self.genero = genero
         
     # Comandos (setters)

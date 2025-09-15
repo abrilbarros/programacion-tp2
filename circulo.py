@@ -1,9 +1,7 @@
 # Ejercicio 5
-
 # Clase que modela un círculo con radio (en centimetros)
 class Circulo:
-    # Atributo de clase (constante matematica)
-    PI = 3.141592653589793
+    PI = 3.141592653589793 # constante de clase
     
     def __init__(self, radio):
         self.radio = radio # float o int (cm)
