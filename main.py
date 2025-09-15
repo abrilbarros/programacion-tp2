@@ -32,3 +32,9 @@ print("====== Ejercicio 7 ======")
 print(circulo_1.obtener_diametro())
 print(circulo_2.obtener_diametro())
 print(circulo_3.obtener_diametro())
+
+print("====== Ejercicio 8 ======")
+
+print(circulo_1.PI)
+print(circulo_2.PI)
+print(circulo_3.PI)
